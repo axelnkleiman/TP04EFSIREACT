@@ -105,17 +105,7 @@ function ProfilePage() {
                       toggle("1");
                     }}
                   >
-                    Follows
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink
-                    className={activeTab === "2" ? "active" : ""}
-                    onClick={() => {
-                      toggle("2");
-                    }}
-                  >
-                    Following
+                    Participantes del grupo
                   </NavLink>
                 </NavItem>
               </Nav>
@@ -186,12 +176,6 @@ function ProfilePage() {
                 </Col>
               </Row>
             </TabPane>
-            <TabPane className="text-center" tabId="2" id="following">
-              <h3 className="text-muted">Not following anyone yet :(</h3>
-              <Button className="btn-round" color="warning">
-                Find artists
-              </Button>
-            </TabPane>
           </TabContent>
         </Container>
       </div>
@@ -219,28 +203,12 @@ function ProfilePage() {
                   </CardBody>
                   <CardFooter className="text-center">
                     <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
                       className="btn-just-icon btn-neutral ml-1"
                       color="link"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
                     </Button>
                   </CardFooter>
                 </Card>
@@ -264,30 +232,6 @@ function ProfilePage() {
                     </a>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
                   </CardFooter>
                 </Card>
               </Col>
@@ -316,30 +260,6 @@ function ProfilePage() {
                     </p>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-linkedin" />
-                    </Button>
                   </CardFooter>
                 </Card>
               </Col>
@@ -350,18 +270,18 @@ function ProfilePage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="text-center">Keep in touch?</h2>
+                <h2 className="text-center">Contactame</h2>
                 <Form className="contact-form">
                   <Row>
                     <Col md="6">
-                      <label>Name</label>
+                      <label>Nombre</label>
                       <InputGroup>
                         <InputGroupAddon addonType="prepend">
                           <InputGroupText>
                             <i className="nc-icon nc-single-02" />
                           </InputGroupText>
                         </InputGroupAddon>
-                        <Input placeholder="Name" type="text" />
+                        <Input placeholder="Nombre" type="text" />
                       </InputGroup>
                     </Col>
                     <Col md="6">
@@ -376,16 +296,16 @@ function ProfilePage() {
                       </InputGroup>
                     </Col>
                   </Row>
-                  <label>Message</label>
+                  <label>Mensaje</label>
                   <Input
-                    placeholder="Tell us your thoughts and feelings..."
+                    placeholder="Descripcion del caso"
                     type="textarea"
                     rows="4"
                   />
                   <Row>
                     <Col className="ml-auto mr-auto" md="4">
                       <Button className="btn-fill" color="danger" size="lg">
-                        Send Message
+                        Enviar Mensaje
                       </Button>
                     </Col>
                   </Row>
