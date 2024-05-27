@@ -30,7 +30,6 @@ import {
   NavLink,
   Nav,
   Container,
-  Button,
 } from "reactstrap";
 
 function ExamplesNavbar() {
@@ -101,7 +100,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://twitter.com/CreativeTim?ref=creativetim"
+                href="https://x.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
                 target="_blank"
                 title="Follow us on Twitter"
               >
@@ -112,7 +111,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim?ref=creativetim"
+                href="https://www.facebook.com/EdSheeranMusic/"
                 target="_blank"
                 title="Like us on Facebook"
               >
@@ -123,7 +122,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial?ref=creativetim"
+                href="https://www.instagram.com/vindiesel/?hl=es"
                 target="_blank"
                 title="Follow us on Instagram"
               >
@@ -134,7 +133,7 @@ function ExamplesNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
-                href="https://www.github.com/CreativeTimOfficial?ref=creativetim"
+                href="https://github.com/axelnkleiman"
                 target="_blank"
                 title="Star on GitHub"
               >

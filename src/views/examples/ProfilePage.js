@@ -202,14 +202,6 @@ function ProfilePage() {
                     </a>
                   </CardBody>
                   <CardFooter className="text-center">
-                    <Button
-                      className="btn-just-icon btn-neutral ml-1"
-                      color="link"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fa fa-google-plus" />
-                    </Button>
                   </CardFooter>
                 </Card>
               </Col>
